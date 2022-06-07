@@ -60,3 +60,6 @@ The sorted() function sorts the elements of a given iterable in a specific order
     
     # Output
     Sorted list: [(4, 1), (2, 2), (1, 3), (3, 4)]
+    
+    # with lambda function
+    sorted(intervals, key = lambda x:x[0])
