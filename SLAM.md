@@ -1,6 +1,12 @@
 # Summary of Practical course
 Visual based navigation
 
+### Camera calibration
+
+We know the 3D coordinates of calibration pattern (chess board)\
+Minimize the differnces between detected points and projected points\
+Optimize the camera calibration and camera position with respect to calibration pattern
+
 ### Representation of Rotation
 - SO(3) matrics
 - Angle-axis
@@ -108,10 +114,31 @@ reconstrut 3D point from 2D image observations for known camera poses
 
 #### Bundle adjustment
 
+Jointly estimating 3D coordinates of points and camera parameters.
+
 camera localizations and sparse geometrical reconstruction, given a strong
 network of matches and good initial guesses are provided.
 
+Aims to minimize the reprojection errors
+
 ### Simultaneous Localization and Mapping (SLAM)
 Estimate 6 DoF poses and map from sequential image data
+
+### Covisibility Graph
+undirected weighted graph.\
+Each node is a keyframe and an egde exists if they share observation of same map points, weight is the number of common points.
+
+### Loop closing
+1. Loop candidates detection, computer the similarity between the bag of words vector of keyframes.
+2. compute the transformation between these 2 frames
+3. Loop fusion, fuse duplicated map points and insert new edges in the covisibility graph
+4. Essential graph optimization
+
+### Lifelong operation
+Detect redundant keyframes and delete them.\
+Because Bundle adjustment complexity grows with the number of keyframes.\
+Imagine if the camera stays there or move in a small area.
+
+
 
 
