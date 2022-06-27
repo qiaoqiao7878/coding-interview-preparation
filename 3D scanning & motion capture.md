@@ -31,9 +31,18 @@ Compare poses using joint angle\
 
 
 ## Features
-- SIFT
+- SIFT\
+
+Scale-Invariant feature transform
+128 dimensional, costly to compute, 8-bin orientation histograms
 - SURF
 - ORB
+
+### Properties of good features
+- Fast comparisions
+- Scale invariant
+- View invariant
+- Lighting invariant
 
 ## 3D reconstruction
 
@@ -56,3 +65,23 @@ Number of constraints: 2mn (constraints are in 2D)
 
 Reading list: https://github.com/openMVG/awesome_3DReconstruction_list
 
+### Poisson surface reconstruction
+Input: point cloud with normals
+Output: Implicit function  -> mesh
+
+## Optimization
+Non-linear least squares\
+First order, second order\
+- Gradient Descent
+- Newton's method
+- Gauss-Newton
+- Levenberg: "damped version of Gauss-Newton" -> Trust region
+- Levenberg-Marquardt (LM)
+
+## Iterative Closest Points (ICP)
+- Selecting source points
+- Matching to points in other scan
+- Weighting the correspondences
+- Rejecting outlier point pairs
+- Assgining an error metric to the current transform
+- Minimizing the error metrix with respect to transformation
