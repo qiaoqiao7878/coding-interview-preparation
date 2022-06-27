@@ -10,6 +10,10 @@ Active:
 - Struture light: Kinect V1
 - Laser Scanner, LIDAR
 
+## Camera distortion
+- Radial: e.g. "fish eye" effect
+- Tangential: if image plane and lens are not parallel
+
 
 ## Project
 Load SMPL model in Unity\
@@ -17,6 +21,19 @@ SMPL blendshapes script to control the body shape and pose in Unity\
 KinectSDK package transform the human motion to SMPL model\
 Compare poses using joint angle\
 25 joints
+
+## 3D representations
+- Voxels
+- Point clouds
+- Meshes
+- Parametric surfaces
+- Implicit surfaces, e.g. SDF signed distance field
+
+
+## Features
+- SIFT
+- SURF
+- ORB
 
 ## 3D reconstruction
 
