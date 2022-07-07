@@ -16,3 +16,24 @@ traverse left -> root -> traverse right
 
 traverse left -> traverse right -> root
 
+## Graph
+
+### Graph representation
+
+<pre>
+0 --- 1
+    / |
+  /   |
+3 --- 2
+</pre>
+
+1. Edge list 
+  [[0,1], [1,2] \
+  [1,3], [2,3]]
+3. Adjacency list
+  [[1], [0,2,3], [1,3], [1,2]]
+5. Adjacency Matrix
+  [[0,1,0,0] \
+  [1,0,1,1] \
+  [0,1,0,1] \
+  [0,1,1,0]]
