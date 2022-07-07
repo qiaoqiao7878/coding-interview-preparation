@@ -37,3 +37,11 @@ traverse left -> traverse right -> root
   [1,0,1,1] \
   [0,1,0,1] \
   [0,1,1,0]]
+  
+  
+  Hamiltonian Path
+  
+  Eulerian Path:
+  
+  Eulerian Cycle:
+  Travel every edge only once and return to the same starting point
