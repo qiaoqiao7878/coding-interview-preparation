@@ -15,7 +15,10 @@ Good hash function:
 - Map similar keys to very different hash values
 - Uses only very fast operations
 
+## Tree
 
+- Height is the length of the longest path to a leaf
+- Depth is the length of the path to its root
 
 ## Binary tree
 
@@ -30,6 +33,18 @@ traverse left -> root -> traverse right
 3. Post-order Traversal
 
 traverse left -> traverse right -> root
+
+## Binary search tree
+
+## AVL tree
+self-balanced tree, the heights of the two child subtrees of any node differ by at most one
+lookup, insertion and deletion takes O(log n) time
+
+## Red-black tree
+Self-balanced tree, searching operation takes only O(log n) time
+
+## Trie
+designed for search and retrieval operations, specifically searching for things that match a prefix string.
 
 ## Graph
 
