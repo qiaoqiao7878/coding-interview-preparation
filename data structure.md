@@ -2,6 +2,21 @@
 
 Some notes about common data structure.
 
+
+## Hash table
+
+Collision:
+- Linear probing: assigned the next availabe spot on the table -> Problem: clustering
+- Separate chaining: hash table is various pointer to a linked list
+
+Good hash function:
+- Makes use of all info provided by key
+- Uniformaly distributes output across table
+- Map similar keys to very different hash values
+- Uses only very fast operations
+
+
+
 ## Binary tree
 
 1. Pre-order traversal
