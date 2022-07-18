@@ -46,6 +46,15 @@ Self-balanced tree, searching operation takes only O(log n) time
 ## Trie
 designed for search and retrieval operations, specifically searching for things that match a prefix string.
 
+## Heap
+Min heap, the root has smaller value than its children.
+Add element: add element to the end, compare it with parent
+Remove element: remove root, Move the last element to the root, compare it with children, swap with the smaller child.
+
+We can use an array to represent a heap
+if the parent index is i, its left child is 2i+1, its right child is 2i+2
+if the node index is n, its parent index is floor((n-1)/2)
+
 ## Graph
 
 ### Graph representation
