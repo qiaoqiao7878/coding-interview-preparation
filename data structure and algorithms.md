@@ -1,6 +1,6 @@
-# Data structure
+# Data structure and algorithms
 
-Some notes about common data structure.
+Some notes about common data structures and algorithms.
 
 
 ## Hash table
@@ -119,6 +119,24 @@ NP hard: not able to solve in polynomial time
 
 exact algorithms\
 Approximation algorithms
+
+
+## Sorting
+
+Simple sorts
+
+- Insertion sort: relatively efficient for small lists and mostly sorted lists. Taking elements one by one and inserting them in their correction position in a new sorted list. Insertion is expensive.
+- Selection sort: Finds the minimum value, swaps it with the value in the first position. and repeat for the rest.
+
+Efficient sorts
+
+- merge sort: it has additional O(n) space complexity
+- Timsort: uses in Python
+- Heapsort: makes use of heap
+- Quicksort: divide and conquer, select a pivot, All elements smaller than the pivot are moved before it and all greater elements are moved after it. And then sort the lesser and greater sublists.
+
+- Bubble sort: Bubble sort can also be used efficiently on a list of any length that is nearly sorted.
+
 
 
 
