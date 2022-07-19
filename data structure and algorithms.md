@@ -137,6 +137,7 @@ Efficient sorts
 
 - Bubble sort: Bubble sort can also be used efficiently on a list of any length that is nearly sorted.
 
+## greatest common divisor
+Euclidean algorithm
 
-
-
+the greatest common divisor of two numbers does not change if the larger number is replaced by its difference with the smaller number.
