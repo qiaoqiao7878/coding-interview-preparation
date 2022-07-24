@@ -141,3 +141,10 @@ Efficient sorts
 Euclidean algorithm
 
 the greatest common divisor of two numbers does not change if the larger number is replaced by its difference with the smaller number.
+
+
+## Bit Manipulation
+<pre>
+| OR (|) | AND (&) | XOR (^) | Left Shift (<<) | Right Shift (>>) | Not (~)
+| 1|0=1	 | 1&0=0   | 1^0=1   | 0010<<2=1000    | 1100>>2=0011     | ~1=0
+</pre>
