@@ -135,7 +135,7 @@ Efficient sorts
 - Heapsort: makes use of heap
 - Quicksort: divide and conquer, select a pivot, All elements smaller than the pivot are moved before it and all greater elements are moved after it. And then sort the lesser and greater sublists.
 
-- Bubble sort: Bubble sort can also be used efficiently on a list of any length that is nearly sorted.
+- Bubble sort: Bubble sort can also be used efficiently on a list of any length that is nearly sorted. Bubble the largest element to the end.
 
 ## greatest common divisor
 Euclidean algorithm
