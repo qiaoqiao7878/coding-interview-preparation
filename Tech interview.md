@@ -1,12 +1,19 @@
 ## During tech interview
 
-- Clarifying the question
+- Clarifying the question -> Can it be empty?
 - Generating inputs and outputs
 - Generating test cases -> None and empty value
 - Brainstorming
 - Runtime Analysis
 - Coding
 - Debugging
+
+
+- Clarify
+- Make assumption
+- List out a few high-level approaches
+- Should I start coding?
+- 
 
 
 Websites:
