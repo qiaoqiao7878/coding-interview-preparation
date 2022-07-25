@@ -9,11 +9,12 @@
 - Debugging
 
 
+hints
 - Clarify
 - Make assumption
 - List out a few high-level approaches
 - Should I start coding?
-- 
+
 
 
 Websites:
